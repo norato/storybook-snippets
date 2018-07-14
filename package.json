@@ -34,7 +34,7 @@
   "scripts": {
     "nps": "nps",
     "build": "nps build",
-    "publish": "nps publish"
+    "deploy": "nps publish"
   },
   "devDependencies": {
     "nps": "^5.9.2",

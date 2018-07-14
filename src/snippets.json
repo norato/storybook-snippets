@@ -1,5 +1,5 @@
 {
-  "Angular Story init": {
+  "Angular Story: init": {
     "prefix": "ng-story",
     "description": "Initialize a story for a Angular Component",
     "types": "typescript",
@@ -12,7 +12,7 @@
       "}));"
     ]
   },
-  "Angular Story init with dependency injection": {
+  "Angular Story: init with dependency injection": {
     "prefix": "ng-story-module",
     "description": "Initialize a story for a Angular Component with dependency injection",
     "types": "typescript",
@@ -24,7 +24,18 @@
       "storiesOf('${1:module} | ${2:component}', module)",
       "\t.addDecorator(metadata)",
       "\t.add('${3:story name}', () => ({",
-      "\ttemplate: ``",
+      "\ttemplate: ``,",
+      "\tprops: {}",
+      "}));"
+    ]
+  },
+  "Angular Story: add story": {
+    "prefix": "ng-add-story",
+    "description": "Add Storybook Story",
+    "types": "typescript",
+    "body": [
+      "\t.add('${1:story name}', () => ({",
+      "\ttemplate: ``,",
       "\tprops: {}",
       "}));"
     ]
