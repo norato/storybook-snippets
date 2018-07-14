@@ -3,7 +3,7 @@
   "displayName": "Storybook Snippets",
   "description": "Storybook Snippets for Angular",
   "icon": "images/storybookLogo.png",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "norato",
   "repository": {
     "type": "git",
