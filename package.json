@@ -2,6 +2,7 @@
   "name": "storybook-snippets",
   "displayName": "Storybook Snippets",
   "description": "Storybook Snippets for Angular",
+  "icon": "images/storybookLogo.png",
   "version": "0.0.2",
   "publisher": "norato",
   "repository": {
