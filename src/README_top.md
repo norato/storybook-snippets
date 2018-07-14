@@ -16,13 +16,3 @@ All Angular snippets starts with "ng-".
 
 | Snippet | Description |
 | ------- | ----------|
-| ng-story | Initialize a story for a Angular Component |
-| ng-story-module | Initialize a story for a Angular Component with dependency injection |
-
-## Feedback
-
-Please send any feedback or suggestions to @fnoratol (Twitter) or create an issue on GitHub.
-
-## License
-
-MIT
