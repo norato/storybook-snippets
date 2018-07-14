@@ -1,3 +1,6 @@
+[![Version](https://vsmarketplacebadge.apphb.com/version/norato.storybook-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=norato.storybook-snippets)
+[![Installs](https://vsmarketplacebadge.apphb.com/installs-short/norato.storybook-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=norato.storybook-snippets)
+
 # VSCode Snippets for Storybook
 
 # Snippet Prefixes
