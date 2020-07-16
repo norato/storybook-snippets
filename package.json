@@ -38,7 +38,7 @@
     "deploy": "nps publish"
   },
   "devDependencies": {
-    "nps": "^5.9.2",
-    "vsce": "^1.44.0"
+    "nps": "^5.10.0",
+    "vsce": "^1.77.0"
   }
 }

@@ -24,8 +24,8 @@
       "storiesOf('${1:module} | ${2:component}', module)",
       "\t.addDecorator(metadata)",
       "\t.add('${3:story name}', () => ({",
-      "\ttemplate: ``,",
-      "\tprops: {}",
+      "\t\ttemplate: ``,",
+      "\t\tprops: {}",
       "}));"
     ]
   },
@@ -35,8 +35,8 @@
     "types": "typescript",
     "body": [
       "\t.add('${1:story name}', () => ({",
-      "\ttemplate: ``,",
-      "\tprops: {}",
+      "\t\ttemplate: ``,",
+      "\t\tprops: {}",
       "}));"
     ]
   }
