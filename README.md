@@ -21,7 +21,6 @@ All Angular snippets starts with "ng-".
 | ------- | ----------|
 | ng-add-story | Add Storybook Story |
 | ng-story | Initialize a story for a Angular Component |
-| ng-story-module | Initialize a story for a Angular Component with dependency injection |
 
 ## Installation (Mac)
 

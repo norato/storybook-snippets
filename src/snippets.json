@@ -4,29 +4,21 @@
     "description": "Initialize a story for a Angular Component",
     "types": "typescript",
     "body": [
-      "import { storiesOf } from '@storybook/angular';",
-      "",
-      "storiesOf('${1:module} | ${2:component}', module)",
-      "\t.add('${3:story name}', () => ({",
-      "\ttemplate: ``",
-      "}));"
-    ]
-  },
-  "Angular Story: init with dependency injection": {
-    "prefix": "ng-story-module",
-    "description": "Initialize a story for a Angular Component with dependency injection",
-    "types": "typescript",
-    "body": [
-      "import { storiesOf, moduleMetadata } from '@storybook/angular';",
-      "",
-      "const metadata = moduleMetadata({});",
-      "",
-      "storiesOf('${1:module} | ${2:component}', module)",
-      "\t.addDecorator(metadata)",
-      "\t.add('${3:story name}', () => ({",
-      "\t\ttemplate: ``,",
-      "\t\tprops: {}",
-      "}));"
+      "import { moduleMetadata } from '@storybook/angular';\n",
+      "const metadata = moduleMetadata({",
+      "\timports: []",
+      "});\n",
+      "export default {",
+      "\ttitle: '${1:component}',",
+      "\tdecorators: [metadata]",
+      "};\n",
+      "export const Default = () => ({",
+      "\tcomponent: ${1:component},",
+      "\tprops: {},",
+      "});\n",
+      "Default.story = {",
+      "\tname: '${1:component}',",
+      "};\n"
     ]
   },
   "Angular Story: add story": {
@@ -34,10 +26,13 @@
     "description": "Add Storybook Story",
     "types": "typescript",
     "body": [
-      "\t.add('${1:story name}', () => ({",
-      "\t\ttemplate: ``,",
-      "\t\tprops: {}",
-      "}));"
+      "export const ${1:story} = () => ({",
+      "\tcomponent: ${2:component},",
+      "\tprops: {},",
+      "});\n",
+      "${1:story}.story = {",
+      "\tname: '${1:story}',",
+      "};\n"
     ]
   }
 }
