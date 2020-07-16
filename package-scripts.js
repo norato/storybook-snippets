@@ -14,8 +14,8 @@ module.exports = {
       default: 'nps readme.top readme.table readme.bottom.md',
     },
     snippets: {
-      ts: `${getSnippetsFor('typescript')}`,
-      default: 'nps snippets.ts',
+      typescript: `${getSnippetsFor('typescript')}`,
+      default: 'nps snippets.typescript',
     },
     publish: {
       default: 'npm version patch; vsce publish',
